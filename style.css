@@ -1,13 +1,36 @@
+body {
+        background-color: azure;
+}
 
-body {background-color: azure}
+.first {
+        width: 800px;
+        height: 300px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
 
-.first {width: 800px; height: 300px; margin: auto; display: flex; flex-direction: column;
-        justify-content: center; align-items: center;}
 
+.second {
+        width: 850px;
+        height: 600px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
 
-.second {width: 850px; height: 600px; margin: auto; display: flex; flex-direction: column;
-        justify-content: center; align-items: center;}
+h1 {
+        font-size: 40px;
+        font-family: 'Pacifico', cursive;
+}
 
-h1 {font-size: 40px; font-family: 'Pacifico', cursive;}
-
-.video {width: 900px; height: 600px;}
+.video {
+        width: 900px;
+        height: 600px;
+        border-radius: 24px;
+        box-shadow: rgba(11, 52, 52, 0.12) 0px 8px 24px, rgba(11, 52, 52, 0.12) 0px 16px 56px, rgba(11, 52, 52, 0.12) 0px 24px 80px;
+}
